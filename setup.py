@@ -8,7 +8,7 @@ ldesc = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
 	name='isbg',
-	version='0.99',
+	version='1.0',
 	description=('a script that makes it easy to scan an IMAP inbox for spam using SpamAssassin and get your spam moved to another folder.'),
 	long_description=ldesc,
 	keywords='email imap spamassasin filter',
